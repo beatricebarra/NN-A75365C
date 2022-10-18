@@ -6,7 +6,7 @@
 
 
 % Load data
-datapath = '/Users/barrab01/Dropbox/CERVICAL SCS PAPER/NATURE NEURO/EDITOR ROUND/SourceData/source_data_final_ODC/'; 
+datapath = 'pathtodata'; 
 E1=  readtable(fullfile(datapath, 'Figure2A_E1_Mk-Yg.csv')); 
 E4=  readtable(fullfile(datapath, 'Figure2A_E4_Mk-Yg.csv')); 
 E6=  readtable(fullfile(datapath, 'Figure2A_E6_Mk-Yg.csv')); 
@@ -61,3 +61,5 @@ end
 ylim([0 1])
 title('E1')
 legend(muscles ,'Location','NorthWest')
+
+
